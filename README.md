@@ -1,11 +1,11 @@
 # tefl - Trivially Easy File Locker
 
 TEFL, or the Trivially Easy File Locker. is a program that allows you to
-create encrypted containers storing arbitrary data. It is essentially a secure
-way to interface with .tar.gpg files. TEFL includes options for compression
-and different types of encryption. TEFL stores everything in open formats, as
-to allow interaction with foreign programs. N.B. open formats are typically
-more secure than closed formats.
+create encrypted containers storing arbitrary data. It is essentially a
+secure way to interface with .tar.gpg files. TEFL includes options for
+compression and different types of encryption. TEFL stores everything in
+open formats, as to allow interaction with foreign programs. N.B. open
+formats are typically more secure than closed formats.
 
 ## Installation
 
