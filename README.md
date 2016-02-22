@@ -18,6 +18,11 @@ yet, so don't get your hopes up.
     stack setup
     stack build
     
+If you want to run the test suite (which again, does nothing yet),
+simply run
+
+    stack test
+    
 ## Bugs
 
 You can report any bugs and/or feature requests to
