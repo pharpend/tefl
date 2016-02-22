@@ -23,13 +23,26 @@ extra-source-files:
   README.md
 
 library
-  -- exposed-modules:
-  -- other-modules:
-  -- other-extensions:
   hs-source-dirs:      lib
   default-language:    Haskell2010
+  ghc-options:         -Wall
+  default-extensions:
+    RankNTypes
+  exposed-modules:
+    Data.Tefl
   build-depends:
       base ==4.8.*
+    , bytestring
+    , bzlib
+    , conduit
+    , conduit-extra
+    , crypto-random
+    , lzma
+    , lzma-conduit
+    , tar
+    , zip-archive
+    , zip-conduit
+    , zlib
 
 executable tefl
   hs-source-dirs:      exc
