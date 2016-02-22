@@ -15,6 +15,7 @@ yet, so don't get your hopes up.
 
     git clone https://github.com/pharpend/tefl.git
     cd tefl
+    stack setup
     stack build
     
 ## Bugs
