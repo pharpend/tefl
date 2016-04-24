@@ -39,6 +39,7 @@ executable tefl
   ghc-options:         -Wall
   build-depends:
       base ==4.8.*
+    , optparse-applicative
     , tefl
 
 test-suite spec
