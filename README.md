@@ -1,9 +1,9 @@
 # tefl - trivially easy file locker
 
 tefl (or TEFL, if you prefer) is a Haskell library and program for
-creating portable encrypted archives. tefl is licensed under the
-[GNU Affero General Public License][agpl] (AGPL). A copy of the AGPL can
-be found in the [LICENSE][lic] file.
+creating and accessing portable encrypted archives. tefl is licensed
+under the [GNU Affero General Public License][agpl] (AGPL). A copy of
+the AGPL can be found in the [LICENSE][lic] file.
 
 ## Installation and usage
 
