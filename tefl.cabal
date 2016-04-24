@@ -1,0 +1,53 @@
+name:                tefl
+version:             0.1.0.0
+synopsis:            Portable cryptographic containers
+description:         
+  tefl is a program to create small, portable encrypted containers.
+  .
+  See the README.md included in the package for more details.
+homepage:            https://gitlab.com/pharpend/tefl
+bug-reports:         https://gitlab.com/pharpend/tefl/issues
+license:             AGPL-3
+license-file:        LICENSE
+author:              Peter Harpending
+maintainer:          peter@harpending.org
+copyright:           Copyright (c) 2016, Peter Harpending.
+category:            Crypto
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  
+  LICENSE
+  README.md
+
+source-repository head
+  type:              git
+  location:          https://gitlab.com/pharpend/tefl.git
+
+library
+  hs-source-dirs:      src
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+  exposed-modules:
+    Crypto.Tefl
+  build-depends:
+      base ==4.8.*
+  
+executable tefl
+  hs-source-dirs:      bin
+  default-language:    Haskell2010
+  main-is:             Main.hs
+  ghc-options:         -Wall
+  build-depends:
+      base ==4.8.*
+    , tefl
+
+test-suite spec
+  type:                exitcode-stdio-1.0
+  hs-source-dirs:      spec
+  default-language:    Haskell2010
+  main-is:             Spec.hs
+  ghc-options:         -Wall
+  build-depends:
+      base ==4.8.*
+    , hspec
+    , tefl
