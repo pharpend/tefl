@@ -52,7 +52,7 @@ decryptPI =
                                          , help "The .tar.gpg file to decrypt"
                                          ])))
                (mconcat [ fullDesc
-                        , progDesc "Encrypt a directory to a file"
+                        , progDesc "Decrypt a tefl archive"
                         ])
 
 altConcat :: (Alternative f, Foldable t) => t (f a) -> f a
