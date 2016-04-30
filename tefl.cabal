@@ -7,7 +7,7 @@ description:
   See the README.md included in the package for more details.
 homepage:            https://gitlab.com/pharpend/tefl
 bug-reports:         https://gitlab.com/pharpend/tefl/issues
-license:             AGPL-3
+license:             GPL-3
 license-file:        LICENSE
 author:              Peter Harpending
 maintainer:          peter@harpending.org

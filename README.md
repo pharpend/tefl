@@ -2,8 +2,8 @@
 
 tefl (or TEFL, if you prefer) is a Haskell library and program for
 creating and accessing portable encrypted archives. tefl is licensed
-under the [GNU Affero General Public License][agpl] (AGPL). A copy of
-the AGPL can be found in the [LICENSE][lic] file.
+under the [GNU General Public License][gpl] (GPL). A copy of the GPL can
+be found in the [LICENSE][lic] file.
 
 ## Installation and usage
 
@@ -34,7 +34,7 @@ The main author is Peter Harpending.
 * Email: <peter@harpending.org>
 * IRC: `pharpend` on FreeNode.net
 
-[agpl]: https://gnu.org/licenses/agpl
 [gitch2]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+[gpl]: https://gnu.org/licenses/gpl
 [lic]: LICENSE
 [stk]: http://haskellstack.org
