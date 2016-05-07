@@ -31,6 +31,9 @@ library
     Crypto.Tefl
   build-depends:
       base ==4.8.*
+    , hOpenPGP
+    , tar
+    , temporary
   
 executable tefl
   hs-source-dirs:      bin
